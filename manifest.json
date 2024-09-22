@@ -1,19 +1,18 @@
 {
   "manifest_version": 3,
   "name": "viv Themes",
-  "version": "0.0.2",
-  "description": "Make your Notion pretty with custom themes.",
+  "version": "1",
   "permissions": [
     "storage",              
-    "tabs",                      
-    "https://www.notion.so/*",
-    "<all_urls>"             
+    "tabs"  
+
   ],
- "host_permissions": [
-  "https://mi1na.github.io/themes/",
-  "mi1na.github.io/", 
-  "https://www.notion.so/*"
-],
+  "host_permissions": [
+    "https://mi1na.github.io/themes/",
+    "https://mi1na.github.io/*",
+    "https://www.notion.so/*",  
+    "https://mi1na.github.io/*" 
+  ],
 
   "icons": {
     "16": "icons/16.png",
