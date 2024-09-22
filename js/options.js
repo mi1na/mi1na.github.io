@@ -1,5 +1,4 @@
-const BASE_URL = "https://notionthemes.netlify.app";
-
+const BASE_URL = "https://mi1na.github.io/themes/"; 
 // Fetch themes from the json config file
 const getThemes = async () => {
   try {
